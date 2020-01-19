@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 3000px;
+}
+
+/* 導覽頁 */
+nav {
+    padding: 30px;
+    /* 顯示 :靈活*/
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+nav ol li {
+    display: inline-block;
+    padding: 0 20px;
+}
+nav ol li a {
+    color: black;
+
+    text-decoration: none;
+}
+
+nav ol li a:hover{
+    color: #9f0403;
+}
+
+#loge img {
+    widows: 30px;
+    vertical-align: middle;
+}
